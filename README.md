@@ -402,7 +402,7 @@ Despite having slightly lower cross-validation scores than ensemble methods, Log
     "YearsAtCompany": 6,
     "JobLevel": 2,
     "EnvironmentSatisfaction": 2
-  }'
+    }'
 
 
 5. **Start the FastAPI server**
