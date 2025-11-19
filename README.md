@@ -390,19 +390,19 @@ Despite having slightly lower cross-validation scores than ensemble methods, Log
 4. **Make predictions via CLI**
    ```bash
    uv run src/predict.py '{
-  "Age": 41,
-  "BusinessTravel": "Travel_Rarely", 
-  "Department": "Sales",
-  "EducationField": "Life Sciences",
-  "JobRole": "Sales Executive", 
-  "MaritalStatus": "Single",
-  "OverTime": "Yes",
-  "MonthlyIncome": 5993,
-  "TotalWorkingYears": 8,
-  "YearsAtCompany": 6,
-  "JobLevel": 2,
-  "EnvironmentSatisfaction": 2
-}'
+    "Age": 41,
+    "BusinessTravel": "Travel_Rarely", 
+    "Department": "Sales",
+    "EducationField": "Life Sciences",
+    "JobRole": "Sales Executive", 
+    "MaritalStatus": "Single",
+    "OverTime": "Yes",
+    "MonthlyIncome": 5993,
+    "TotalWorkingYears": 8,
+    "YearsAtCompany": 6,
+    "JobLevel": 2,
+    "EnvironmentSatisfaction": 2
+  }'
 
 
 5. **Start the FastAPI server**
